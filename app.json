@@ -1,0 +1,24 @@
+{
+  "id": "b2c3d4e5-f6a7-4890-abcd-123456789012",
+  "name": "Proteccion Lista Precios",
+  "publisher": "Global Food Link",
+  "version": "1.0.0.0",
+  "brief": "Protege las listas de precios contra eliminación accidental",
+  "description": "Bloquea la eliminación de listas de precios activas y requiere permisos SUPER para borrar borradores.",
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50299
+    }
+  ],
+  "dependencies": [],
+  "runtime": "14.0",
+  "target": "Cloud",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  }
+}
